@@ -18,7 +18,8 @@ body {
 }
 
 .image {
-    width: 50%;
+    max-width: 800px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -37,6 +38,7 @@ body {
     width: fit-content;
     margin: auto;
     padding-top: 10px;
+    font-size: 30px;
 }
 
 .list-items {
