@@ -10,7 +10,7 @@ body {
 }
 
 .title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     text-align: center;
     background-color: #ffd97d;
@@ -33,7 +33,7 @@ body {
     font-size: 20px;
     background-color: #ff9b85;
     border: 2px solid;
-    display: block;
+    /* display: block; */
 }
 
 .list-title-home {
@@ -46,16 +46,22 @@ body {
 .list-items-home {
     font-size: 20px;
     margin: auto;
-    display: flex;
-    justify-content: space-around;
+    display:inline-flex;
     list-style: none;
     margin-bottom: 5%;
+}
+
+.flex-items {
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .recipe-image-home {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .recipe-title {
